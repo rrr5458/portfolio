@@ -1035,9 +1035,6 @@ input[type="button"]:focus {
     .about {
         height: 480px
     }
-    .about__wrapper::before {
-        display: none
-    }
     .about__visual {
         width: 290px;
         max-width: 100%
@@ -1055,7 +1052,7 @@ input[type="button"]:focus {
     position: absolute;
     top: 35px;
     left: 45%;
-    width: 1036px;
+    width: 860px;
     height: 659px;
     margin: 0;
     background-image: url("../img/Earthquake\ Tracker.png");
@@ -1139,7 +1136,7 @@ input[type="button"]:focus {
     right: 52%;
     -webkit-transform: translateY(-45%);
     transform: translateY(-45%);
-    width: 828px;
+    width: 780px;
     height: 581px;
     margin: 0;
     background-image: url("../img/web-design-visual.png");
