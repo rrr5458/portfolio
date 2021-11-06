@@ -190,13 +190,14 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #ffffff;
+			border-bottom: solid 1px black;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
+			color: black;
 		}
 
 	h1 {
@@ -285,7 +286,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px #ffffff;
+		border-bottom: solid 1px black;
 		margin: 2.75rem 0;
 	}
 
@@ -305,6 +306,7 @@ input, select, textarea {
 
 	form {
 		margin: 0 0 2rem 0;
+		color: black;
 	}
 
 		form > :last-child {
@@ -376,7 +378,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: black;
 		display: block;
 		font-size: 0.8rem;
 		font-weight: 300;
@@ -402,7 +404,7 @@ input, select, textarea {
 		transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
-		border: solid 1px #ffffff;
+		border: solid 1px black;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -1012,7 +1014,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: transparent;
+		background-color: black;
 		border-radius: 4px;
 		border: 0;
 		box-shadow: inset 0 0 0 1px #ffffff;
@@ -1550,6 +1552,7 @@ input, select, textarea {
 			background-color: #fffcd7;
 			border-radius: 4px;
 			opacity: 0;
+			color: black
 		}
 
 			#main article.active {
@@ -1558,6 +1561,7 @@ input, select, textarea {
 				-ms-transform: translateY(0);
 				transform: translateY(0);
 				opacity: 1;
+				color: black
 			}
 
 			#main article .close {
@@ -1571,6 +1575,7 @@ input, select, textarea {
 				text-indent: 4rem;
 				overflow: hidden;
 				white-space: nowrap;
+				color: black;
 			}
 
 				#main article .close:before {
@@ -1590,14 +1595,16 @@ input, select, textarea {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
+					color: black;
 				}
 
 				#main article .close:hover:before {
-					background-color: #fffcd7;
+					background-color: black ;
 				}
 
 				#main article .close:active:before {
-					background-color: #fffcd7;
+					background-color: black;
+					color: black;
 				}
 
 		@media screen and (max-width: 736px) {
@@ -1607,6 +1614,7 @@ input, select, textarea {
 			}
 
 				#main article .close:before {
+					color: black;
 					top: 0.875rem;
 					left: 0.875rem;
 					width: 2.25rem;
@@ -1676,4 +1684,7 @@ input, select, textarea {
 		#portrait-reed{
 			width: 187px;
 			margin: 0 auto;
+		}
+		.project-title {
+			color: black;
 		}
