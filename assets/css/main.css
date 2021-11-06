@@ -53,10 +53,11 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	background: #fffcd7;
 }
 
 mark {
-	background-color: transparent;
+	background-color: #fffcd7;;
 	color: inherit;
 }
 
@@ -1546,7 +1547,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: #fffcd7;
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1592,11 +1593,11 @@ input, select, textarea {
 				}
 
 				#main article .close:hover:before {
-					background-color: rgba(255, 255, 255, 0.075);
+					background-color: #fffcd7;
 				}
 
 				#main article .close:active:before {
-					background-color: rgba(255, 255, 255, 0.175);
+					background-color: #fffcd7;
 				}
 
 		@media screen and (max-width: 736px) {
